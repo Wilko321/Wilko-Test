@@ -13,9 +13,9 @@ function lookupLocation() {
   var location = findLocation(numberInput);
   
   if (location) {
-    resultElement.textContent = "Location: " + location;
+    resultElement.textContent = "The closest station/stop to this pole is: " + location;
   } else {
-    resultElement.textContent = "Location not found.";
+    resultElement.textContent = "We can't find a location for that Pole Number ";
   }
 }
 
@@ -30,3 +30,4 @@ function findLocation(number) {
   }
   return null;
 }
+
