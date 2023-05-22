@@ -1,7 +1,7 @@
 // Define the list of locations with associated numbers
 var locations = {
   "Adelaide Railway Station": ["123", "456"],
-  "Morphette Raod Stop": ["321"],
+  "Morphette Road Stop": ["321"],
   "Location C": ["101", "202", "303"]
 };
 
